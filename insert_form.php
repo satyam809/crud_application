@@ -37,7 +37,7 @@
                   <label>Upload image</label>
                   <input type="file" class="form-control-file border photo" name="file" onchange="previewFile(this);" required>
                 </div>
-                <div class="form-group show_preview">
+                <div class="form-group show_preview" style="display: none">
                   <img src="" class="rounded preview_img" alt="Cinque Terre" width="304" height="236">
                   <br><br>
                   <button type='button' class='btn btn-danger' onclick="hide_preview()">Delete</button>
